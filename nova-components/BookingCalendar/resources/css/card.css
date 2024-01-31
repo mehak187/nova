@@ -1,0 +1,9 @@
+@tailwind utilities;
+
+.bg-info-500 {
+    background-color: #3490dc;
+}
+
+.border-info-500 {
+    border-color: #3490dc;
+}

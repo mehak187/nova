@@ -1,0 +1,10 @@
+{
+    "status.booked": "Réservé",
+    "status.running": "En cours",
+    "status.finished": "Terminé",
+    "status.cancelled": "Annulé",
+    "task_status.draft": "Demande",
+    "task_status.open": "To do",
+    "task_status.in_progress": "En cours",
+    "task_status.closed": "Fermée"
+}

@@ -1,0 +1,9 @@
+/*!
+  * vue-tippy v6.0.0
+  * (c) 2022 
+  * @license MIT
+  */
+
+//! moment.js
+
+//! moment.js locale configuration

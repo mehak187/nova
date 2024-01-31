@@ -1,0 +1,34 @@
+:root {
+  --primary: #009591;
+  --primary-dark: #017572;
+  --primary-70: #4db5b2;
+  --primary-50: #99d5d3;
+  --primary-30: #bfe5e4;
+  --primary-10: #e6f4f4;
+  --sidebar-icon: #009591;
+  --logo: white;
+}
+
+.content>* {
+    box-shadow: none!important;
+}
+
+.bg-grad-sidebar {
+    background: none!important;
+}
+
+.w-sidebar .text-white {
+    color: var(--90)!important;
+}
+
+.w-sidebar h4 {
+    color: var(--70)!important;
+}
+
+.h-header {
+    background: #fff;
+}
+
+.h-header > a {
+    display: none;
+}
