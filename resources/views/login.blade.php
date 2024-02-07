@@ -21,7 +21,7 @@
                 <form action="/login" method="POST">
                     @csrf
 
-                    <div class="mb-4">
+                    <div class="mb-4">c:\Users\Mehak\Desktop\nova credentials.txt
                         <label for="email" class="block text-xs font-bold text-gray-600 uppercase">E-mail</label>
 
                         <input type="email" name="email" id="email" class="px-4 py-2 block w-full border rounded" value="{{ old('email') }}" />

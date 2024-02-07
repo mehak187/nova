@@ -31,6 +31,8 @@ use App\Nova\MailType;
 use Laravel\Nova\Menu\MenuGroup;
 use Laravel\Nova\Menu\MenuList;
 
+// use Laravel\Nova\Nova;
+
 class NovaServiceProvider extends NovaApplicationServiceProvider
 {
     /**
@@ -156,4 +158,5 @@ class NovaServiceProvider extends NovaApplicationServiceProvider
     {
         //
     }
+    
 }

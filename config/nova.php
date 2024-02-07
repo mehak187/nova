@@ -34,7 +34,7 @@ return [
     */
 
     'name' => env('NOVA_APP_NAME', env('APP_NAME')),
-
+    'locale' => 'en',
     /*
     |--------------------------------------------------------------------------
     | Nova Domain Name

@@ -25,7 +25,9 @@
         "spatie/laravel-ignition": "^1.4",
         "spatie/test-time": "^1.2",
         "titasgailius/search-relations": "^1.0",
-        "whitecube/nova-flexible-content": "^1.0"
+        "whitecube/nova-flexible-content": "^1.0",
+        "Vendor/Documents": "@dev",
+        "Vendor/URLs": "@dev"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
@@ -92,6 +94,14 @@
         {
             "type": "path",
             "url": "./nova-components/CalliopeeStyles"
+        },
+        {
+            "type": "path",
+            "url": "./nova-components/Documents"
+        },
+        {
+            "type": "path",
+            "url": "./nova-components/URLs"
         }
     ]
 }
