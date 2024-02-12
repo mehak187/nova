@@ -23,7 +23,13 @@
         "build-Documents": "cd nova-components/Documents && npm run dev",
         "build-Documents-prod": "cd nova-components/Documents && npm run prod",
         "build-URLs": "cd nova-components/URLs && npm run dev",
-        "build-URLs-prod": "cd nova-components/URLs && npm run prod"
+        "build-URLs-prod": "cd nova-components/URLs && npm run prod",
+        "build-SetAssistantId": "cd nova-components/SetAssistantId && npm run dev",
+        "build-SetAssistantId-prod": "cd nova-components/SetAssistantId && npm run prod",
+        "build-assistantid": "cd nova-components/Assistantid && npm run dev",
+        "build-assistantid-prod": "cd nova-components/Assistantid && npm run prod",
+        "build-setassistantid": "cd nova-components/Setassistantid && npm run dev",
+        "build-setassistantid-prod": "cd nova-components/Setassistantid && npm run prod"
     },
     "devDependencies": {
         "autoprefixer": "^10.4.13",

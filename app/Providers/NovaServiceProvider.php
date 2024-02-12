@@ -13,6 +13,10 @@ use App\Nova\Workspace;
 use App\Nova\DoorOpening;
 use App\Nova\OpeningTime;
 use App\Nova\WorkspaceType;
+use App\Nova\urls;
+use App\Nova\paragraph;
+use App\Nova\docs;
+use App\Nova\assistants;
 use App\Nova\Lenses\MyTasks;
 use Illuminate\Http\Request;
 use Laravel\Nova\Cards\Help;
@@ -30,6 +34,7 @@ use App\Nova\Dashboards\Calendar as DashboardsCalendar;
 use App\Nova\MailType;
 use Laravel\Nova\Menu\MenuGroup;
 use Laravel\Nova\Menu\MenuList;
+
 
 // use Laravel\Nova\Nova;
 
@@ -80,8 +85,21 @@ class NovaServiceProvider extends NovaApplicationServiceProvider
                 MenuSection::make('Configuration', [
                     MenuItem::resource(MailType::class),
                 ])->icon('cog')->collapsable(),
+                
+                MenuSection::make('Assistants')->resource(assistants::class)->icon('clipboard-list'),
+
+                MenuSection::make('Knowledge', [
+                    MenuItem::resource(urls::class),
+                    MenuItem::resource(paragraph::class),
+                    MenuItem::resource(docs::class),
+                ])->icon('cog')->collapsable(),
+
             ];
         });
+
+        Nova::resources([
+            urls::class,
+        ]);
     }
 
     /**
