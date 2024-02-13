@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+// use App\Http\Controllers\Nova;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -61,6 +61,8 @@ Route::middleware('auth:app')->group(function () {
 
     Route::get('/support', 'SupportController@index');
     Route::post('/support', 'SupportController@store');
+
+
 });
 
 // Route::get('/imunzbtvrcexwyq/{client}', function (\App\Models\Client $client) {
@@ -68,3 +70,7 @@ Route::middleware('auth:app')->group(function () {
 
 //     return redirect('/cp');
 // });
+// Route::get('cp/resources/urls/new/{asid}', 'urlController@index');
+Route::get('cp/resources/urls/new/{asid}', 'urlController@index');
+Route::get('cp/resources/paragraph/new/{asid}', 'paragraphController@index');
+Route::get('cp/resources/docs/new/{asid}', 'docsController@index');

@@ -25,7 +25,11 @@
         "spatie/laravel-ignition": "^1.4",
         "spatie/test-time": "^1.2",
         "titasgailius/search-relations": "^1.0",
-        "whitecube/nova-flexible-content": "^1.0"
+        "whitecube/nova-flexible-content": "^1.0",
+        "acme/SetAssistantId": "@dev",
+        "acme/assistantid": "@dev",
+        "acme/setassistantid": "@dev",
+        "acme/set-assistant-id": "@dev"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
@@ -92,6 +96,26 @@
         {
             "type": "path",
             "url": "./nova-components/CalliopeeStyles"
+        },
+        {
+            "type": "path",
+            "url": "./nova-components/SetAssistantId"
+        },
+        {
+            "type": "path",
+            "url": "./nova-components/Assistantid"
+        },
+        {
+            "type": "path",
+            "url": "./nova-components/Setassistantid"
+        },
+        {
+            "type": "path",
+            "url": "./nova-components/Setassistantid"
+        },
+        {
+            "type": "path",
+            "url": "./nova-components/SetAssistantId"
         }
     ]
 }
